@@ -5,7 +5,7 @@ export class NumbersCollection {
     return this.data.length;
   }
 
-  compare(leftIndex: number, rightIndex: number): boolean {
+  shouldSwap(leftIndex: number, rightIndex: number): boolean {
     return this.data[leftIndex] > this.data[rightIndex];
   }
 
